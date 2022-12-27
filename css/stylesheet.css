@@ -78,3 +78,26 @@ h3{
     }
   
   }
+
+  /*Cards*/
+
+  .card{
+    border-radius: 7px;
+    border: 2px solid red;
+    margin: 20px;
+    
+}
+
+.card__heading{
+    background-image: url('https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=780&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.card__body{
+    padding: 2rem 3rem;
+    
+}
+
+
