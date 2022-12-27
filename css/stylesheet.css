@@ -127,3 +127,27 @@ h3{
   max-width: 1104px;
   margin: 0 auto;
 }
+
+/*Profile*/
+
+.profile{
+  padding: 3rem;
+
+}
+
+.profile__image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid yellowgreen;
+  background-size: cover;
+}
+
+.profile__header{
+  display: flex;
+  justify-content: space-between;
+}
+
+span{
+  margin-top: 0;
+}
