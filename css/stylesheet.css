@@ -11,9 +11,10 @@ html{
 :root{
     --color-headings: #1b0760;
     --color-body: #918ca4;
-    --color-body-image: #5c5577;
+    --color-body-image: #fff;
     --color-border: #ccc;
     --border-radius: 30px;
+    --color-primary: #ff8c00;
 }
 
 /*Typography*/
@@ -112,8 +113,8 @@ h3{
   margin-bottom: 4rem;
 }
 
-.block__image{
-  background-image: ;
+.block-image{
+  background-image: ("../images/hostel.jpg");
   color: var(--color-body-image);
 }
 
@@ -126,6 +127,43 @@ h3{
 .container{
   max-width: 1104px;
   margin: 0 auto;
+}
+
+/*Navigation bar*/
+
+nav{
+  background: ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
+
+.nav__list{
+  width: 100%;
+  margin: 0;
+}
+
+.nav__item{
+  padding: 0.5rem 2rem;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.nav__item>a{
+  color: var(--color-primary);
+  transition: transition 0.3s;
+}
+
+.nav__item>a:hover{
+  color: #fff;
+}
+
+.nav__brand{
+  font-size: 4rem;
+  color: var(--color-primary);
+  font-weight: 700;
 }
 
 /*Profile*/
