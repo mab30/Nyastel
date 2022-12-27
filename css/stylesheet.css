@@ -11,7 +11,7 @@ html{
 :root{
     --color-headings: #1b0760;
     --color-body: #918ca4;
-    --color-body-darker: #5c5577;
+    --color-body-image: #5c5577;
     --color-border: #ccc;
     --border-radius: 30px;
 }
@@ -100,4 +100,30 @@ h3{
     
 }
 
+/*Blocks*/
 
+.block{
+  --padding-vertical: 6rem;
+  padding: var(--padding-vertical) 2rem;
+}
+
+.block__header{
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.block__image{
+  background-image: ;
+  color: var(--color-body-image);
+}
+
+.block__image h1,
+.block__image h2,
+.block__image h3{
+  color: ;
+}
+
+.container{
+  max-width: 1104px;
+  margin: 0 auto;
+}
