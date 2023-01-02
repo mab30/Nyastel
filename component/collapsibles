@@ -1,0 +1,16 @@
+<section class="collapsible">
+        <header class="collapsible__header">
+            <h2 class="collapsible__heading">contact us</h2>
+            <svg class="icon">
+                <use xlink:href="images/sprites.svg#chevron"></use>
+              </svg>
+        </header>
+        <ul class="list collapsible__content">
+            <li>contact us</li>
+            <li>contact us</li>
+            <li>contact us</li>
+            <li>contact us</li>
+            <li>contact us</li>
+        </ul>
+    </section>
+    <script src="js/main.js"></script>
