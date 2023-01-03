@@ -163,9 +163,6 @@ h3{
   opacity: 1;
 }
 
-@media screen and (min-width: 768px){
-
-}
 
 /*Icons*/
 
@@ -249,10 +246,39 @@ nav{
   color: #fff;
 }
 
+.nav__toggler{
+  opacity: .5;
+  cursor: pointer;
+}
+
+.nav.collapsible--expanded .nav__toggler{
+  opacity: 1;
+}
+
 .nav__brand{
   font-size: 4rem;
   color: var(--color-primary);
   font-weight: 700;
+}
+
+@media screen and (min-width: 768px){
+  .nav__toggler{
+    display: none;
+  }
+
+  .nav__list{
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+    max-height: 100%;
+    opacity: 1;
+  }
+
+  .nav__item{
+    border: none;
+  }
+
+
 }
 
 /*Profile*/
