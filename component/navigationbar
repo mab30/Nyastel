@@ -1,4 +1,4 @@
-<header class="block-image">
+<header class="">
         <nav class="nav collapsible">
             <a href="" class="nav__brand">Nyastel</a>
             <svg class="icon icon--primary nav__toggler">
