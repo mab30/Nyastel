@@ -36,6 +36,7 @@ h3{
 
 h1{
     font-size: 7rem;
+    color: #fff;
 }
 
 h2{
@@ -204,6 +205,26 @@ h3{
   opacity: 1;
 }
 
+/*Hero*/
+
+.form{
+  padding: 2rem;
+}
+
+.form .input{
+  width: 200px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.app{
+  color: var(--color-primary);
+}
+
 
 /*Icons*/
 
@@ -259,6 +280,14 @@ h3{
 }
 
 /*Navigation bar*/
+
+.banner{
+  background: url("../images/hostel.jpg");
+  background-color: #444;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+}
 
 .nav {
   background: #727272;
