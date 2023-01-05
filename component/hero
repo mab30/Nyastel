@@ -1,0 +1,17 @@
+<section class="block banner">
+    <div class="container grid grid--1x2">
+        <div class="hero__content">
+            <h1>Looking for a family <span class="app">apartment</span> or studio?</h1>
+            <p>studio, 2 bedroom & full furnished apartment</p>
+            <button class="btn btn--primary">Apply here</button>
+        </div>
+        <div class="card form">
+            <h2>Login in</h2>
+            <input type="email" name="email" id="" placeholder="markus.ohio@example.com">
+            <input type="password" name="pwd" id="">
+            <button class="btn btn--primary">log in</button>
+            <span>Don't have an account?</span>
+            <span>Sign up here</span>
+        </div>
+    </div>
+   </section>

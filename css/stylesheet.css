@@ -9,7 +9,7 @@ html{
 }
 
 :root{
-    --color-headings: #1b0760;
+    --color-headings: #fff;
     --color-body: #918ca4;
     --color-body-image: #fff;
     --color-border: #ccc;
@@ -36,7 +36,6 @@ h3{
 
 h1{
     font-size: 7rem;
-    color: #fff;
 }
 
 h2{
@@ -245,6 +244,18 @@ h3{
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer{
+  background: #666;
+  padding: 2rem;
+  border-bottom: 1px solid red;
+}
+
+.footer__heading{
+  text-transform: uppercase;
+  font-weight: 600;
+  
 }
 
 
