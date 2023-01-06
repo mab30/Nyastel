@@ -1,0 +1,59 @@
+<footer class="block footer">
+    <div class="container grid footer__sections">
+         <section class="collapsible footer__section">
+              <header class="collapsible__header">
+                  <h2 class="collapsible__heading footer__heading">contact us</h2>
+                  <svg class="icon collapsible__chevron">
+                      <use xlink:href="images/sprites.svg#chevron"></use>
+                  </svg>
+              </header>
+              <div class="collapsible__content">
+                  <ul class="list">
+                      <li>contact us</li>
+                      <li>contact us</li>
+                      <li>contact us</li>
+                      <li>contact us</li>
+                      <li>contact us</li>
+                  </ul>
+              </div>
+         </section>
+         <section class="collapsible footer__section">
+          <header class="collapsible__header">
+              <h2 class="collapsible__heading footer__heading">follow us</h2>
+              <svg class="icon collapsible__chevron">
+                  <use xlink:href="images/sprites.svg#chevron"></use>
+              </svg>
+          </header>
+          <div class="collapsible__content">
+              <ul class="list">
+                  <li>contact us</li>
+                  <li>contact us</li>
+                  <li>contact us</li>
+                  <li>contact us</li>
+                  <li>contact us</li>
+              </ul>
+          </div>
+     </section>
+     <section class="collapsible footer__section">
+      <header class="collapsible__header">
+          <h2 class="collapsible__heading footer__heading">location</h2>
+          <svg class="icon collapsible__chevron">
+              <use xlink:href="images/sprites.svg#chevron"></use>
+          </svg>
+      </header>
+      <div class="collapsible__content">
+          <ul class="list">
+              <li>contact us</li>
+              <li>contact us</li>
+              <li>contact us</li>
+              <li>contact us</li>
+              <li>contact us</li>
+          </ul>
+      </div>
+ </section>
+         <section class="footer__brand">
+              <h2 class="nav__brand">Nyastel</h2>
+              <p class="footer__copyright">Copyright Nyastel 2023</p>
+         </section>
+    </div>
+ </footer>
