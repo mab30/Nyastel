@@ -2,4 +2,4 @@
         <svg class="icon icon--primary">
             <use xlink:href="images/sprites.svg#menu"></use>
           </svg>
-    </span>
+</span>
