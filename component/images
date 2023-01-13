@@ -1,0 +1,5 @@
+<picture>
+                <source type="image/webp" srcset="images/studio.webp 1x, images/studiox2.webp 2x">
+                <source type="image/jpg" srcset="images/studio.jpg 1x, images/studiox2.jpg 2x">
+                <img class="feature__image" src="images/studiox2.jpg" alt="">
+            </picture>

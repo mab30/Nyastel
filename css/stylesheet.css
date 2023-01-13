@@ -29,21 +29,23 @@ body{
 h1,
 h2,
 h3{
-    color: var(--color-headings);
     margin-bottom: 1rem;
     line-height: 1.1;
 }
 
 h1{
     font-size: 7rem;
+    color: var(--color-headings);
 }
 
 h2{
     font-size: 4rem;
+    color: var(--color-primary);
 }
 
 h3{
     font-size: 3rem;
+    color: var(--color-primary);
 }
 
 @media screen and (min-width: 1024px) {
@@ -248,6 +250,25 @@ h3{
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+/*Feature block*/
+
+.feature{
+  gap: 3rem 2rem;
+  margin: 12rem 0;
+}
+
+.feature__heading{
+  margin: 1rem 0;
+}
+
+.feature__image{
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
 }
 
 /*Footers*/
