@@ -126,10 +126,16 @@ h3{
   color: ;
 }
 
+.block--color{
+  background: #ccc;
+}
+
 .container{
   max-width: 1104px;
   margin: 0 auto;
 }
+
+/*Buttons*/
 
 .btn{
   font-size: 1.8rem;
@@ -435,8 +441,7 @@ h3{
 /*Profile*/
 
 .profile{
-  padding: 3rem;
-
+  padding: 3rem 5rem;
 }
 
 .profile__image{
