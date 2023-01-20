@@ -121,11 +121,6 @@ h3{
   color: var(--color-body-image);
 }
 
-.block__image h1,
-.block__image h2,
-.block__image h3{
-  color: ;
-}
 
 .block--color{
   background: rgb(255, 253, 253);
