@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Want suitable and warm apartment for an individual or family? check our website">
+    <meta property="og:title" content="Nyastel...">
+    <meta property="og:description" content="Nyastel... Search for an apartment">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://Nyastel.com">
+    <title>Nyastel- Find suitable apartment</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header class="">
@@ -27,18 +33,24 @@
     </header>
     <section class="block banner">
         <div class="container grid grid--1x2">
-            <div class="hero__content">
+            <div class="hero__content" data-aos="fade-right">
                 <h1>Looking for a family <span class="app">apartment</span> or studio?</h1>
                 <p>studio, 2 bedroom & full furnished apartment</p>
                 <button class="btn btn--primary">Apply here</button>
             </div>
-            <div class="card form">
-                <h2>Login in</h2>
-                <input type="email" name="email" id="" placeholder="markus.ohio@example.com">
-                <input type="password" name="pwd" id="">
-                <button class="btn btn--primary">log in</button>
-                <span>Don't have an account?</span>
-                <span>Sign up here</span>
+                <div class="card form" data-aos="zoom-in-left">
+                    <h2 class="form__heading">Login in</h2>
+                    <input type="email" name="email" id="" placeholder="markus.ohio@example.com">
+                    <input type="password" name="pwd" id="" placeholder="********">
+                    <button class="btn btn--primary">log in</button>
+                    <p>Don't have an account?</p>
+                    <p>Sign up here</p>
+                        <svg class="icon">
+                            <use xlink:href="images/spritte.svg#facebook"></use>
+                        </svg>
+                        <svg class="icon">
+                            <use xlink:href="images/spritte.svg#twitter"></use>
+                        </svg>
             </div>
         </div>
     </section>
@@ -47,11 +59,11 @@
             <h2>Available apartment</h2>
         </header>
         <article class="grid grid--1x2 feature">
-            <div>
+            <div data-aos="fade-right">
                 <h3>Studio Apartment Available</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a et tenetur dignissimos consequuntur voluptates dolorem, cumque est numquam nisi!</p>
             </div>
-            <picture>
+            <picture data-aos="zoom-in">
                 <source type="image/webp" srcset="images/studio.webp 1x, images/studiox2.webp 2x">
                 <source type="image/jpg" srcset="images/studio.jpg 1x, images/studiox2.jpg 2x">
                 <img class="feature__image" src="images/studiox2.jpg" alt="">
@@ -60,11 +72,11 @@
     </section>
     <div class="block container">
         <article class="grid grid--1x2 feature">
-            <div>
+            <div data-aos="fade-up">
                 <h3>Family Apartment Available</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a et tenetur dignissimos consequuntur voluptates dolorem, cumque est numquam nisi!</p>
             </div>
-            <picture>
+            <picture data-aos="fade-up">
                 <source type="image/webp" srcset="images/family.webp 1x, images/familyx2.webp 2x">
                 <source type="image/jpg" srcset="images/family.jpg 1x, images/familyx2.jpg 2x">
                 <img class="feature__image" src="images/familyx2.jpg" alt="">
@@ -73,18 +85,18 @@
     </div>
     <div class="block container">
         <article class="grid grid--1x2 feature">
-            <div>
+            <div data-aos="fade-right-up">
                 <h3>Shared Apartment Available</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati a et tenetur dignissimos consequuntur voluptates dolorem, cumque est numquam nisi!</p>
             </div>
-            <picture>
+            <picture data-aos="zoom-in-left">
                 <source type="image/webp" srcset="images/Shared.webp 1x, images/Sharedx2.webp 2x">
                 <source type="image/jpg" srcset="images/Shared.jpg 1x, images/Sharedx2.jpg 2x">
                 <img class="feature__image" src="images/Sharedx2.jpg" alt="">
             </picture>
         </article>
     </div>
-    <section class="block grid grid--1x2 profile block--color">
+    <section class="block container grid grid--1x2 block--color">
         <div class="card profile">
             <div class="profile__header">
                 <img class="profile__image" src="images/profile1.jpg" alt="">
@@ -191,5 +203,9 @@
       </div>
    </footer>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
